@@ -2883,13 +2883,11 @@ a:focus {
   }
 }
 
-.site-header .topbar .contact-info ul li:first-child {
+.site-header .topbar .contact-info ul li {
   margin-right: 30px;
 }
 
-/* .site-header .topbar .contact-info ul li:nth-child(2) {
-  margin-right: 30px;
-} */
+
 
 @media (max-width: 991px) {
   .site-header .topbar .contact-info ul li:first-child {
