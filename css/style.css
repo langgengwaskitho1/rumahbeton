@@ -4295,7 +4295,7 @@ a:focus {
 }
 
 .about-us .about-image-col .img-holder img:nth-child(2) {
-  top: 150px;
+  top: 276px;
   right: 220px;
   z-index: 10;
 }
@@ -4308,7 +4308,7 @@ a:focus {
 
 .about-us .about-image-col .img-holder img:nth-child(3) {
   top: 190px;
-  right: 0;
+  right: -116px;
 }
 
 /*--------------------------------------------------------------
