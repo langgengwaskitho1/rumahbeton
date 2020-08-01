@@ -55,6 +55,13 @@
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- multiple tab css -->
+    <link rel="stylesheet" href="css/tabs_style.css">
+
+
+    <!-- multiple tab js -->
+    <script src="js/change_tab.js"></script>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -424,8 +431,103 @@
         </section>
         <!-- end of services-section -->
 
+        <!-- start Multiple Tab -->
+        <div class="container container-table" style="text-align: center;">
+            <div class="row vertical-center-row">
+                <div id="main_content">
+                    <li class="selected" id="page1" onclick="change_tab(this.id);">Ready Mix</li>
+                    <li class="notselected" id="page2" onclick="change_tab(this.id);">Mini Ready Mix</li>
+                    <li class="notselected" id="page3" onclick="change_tab(this.id);">Pompa Beton (Concrete Pump) </li>
+
+                    <div class='hidden_desc' id="page1_desc">
+                        <h2>Page 1</h2>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Mary</td>
+                                    <td>Moe</td>
+                                    <td>mary@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class='hidden_desc' id="page2_desc">
+                        <h2>Page 2</h2>
+                        Hello this is Page 2 description and this is just a sample text .This is the demo of Multiple
+                        Tab In
+                        Single
+                        Page Using JavaScript and CSS.
+                    </div>
+
+                    <div class='hidden_desc' id="page3_desc">
+                        <h2>Page 3</h2>
+                        Hello this is Page 3 description and this is just a sample text .This is the demo of Multiple
+                        Tab In
+                        Single
+                        Page Using JavaScript and CSS.
+                        Hello this is Page 3 description and this is just a sample text .This is the demo of Multiple
+                        Tab In
+                        Single
+                        Page Using JavaScript and CSS.
+                    </div>
+
+                    <div id="page_content">
+                        <h2>Truk Reguler Kapasitas (7m³/mobil)</h2>
+                        <table class="table table-hover" >
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center;">Firstname</th>
+                                    <th style="text-align: center;">Lastname</th>
+                                    <th style="text-align: center;">Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>john@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>Mary</td>
+                                    <td>Moe</td>
+                                    <td>mary@example.com</td>
+                                </tr>
+                                <tr>
+                                    <td>July</td>
+                                    <td>Dooley</td>
+                                    <td>july@example.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+                <!-- end start multiple tab -->
+            </div>
+        </div>
+        <!-- mulitple tab 2 -->
 
 
+
+        <!-- multiple tab 2 ending -->
 
 
         <!-- start of latest-projects -->
@@ -777,7 +879,8 @@
                                 </div>
                                 <div class="error-handling-messages">
                                     <div id="success">Thank you</div>
-                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
+                                    <div id="error"> Error occurred while sending email. Please try again later.
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -795,8 +898,10 @@
                     <div class="col col-lg-4 col-md-3 col-xs-6">
                         <div class="widget about-widget">
                             <h3><a href="#" class="logo">Mega Industry</a></h3>
-                            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laborio,
-                                nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in
+                            <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit
+                                laborio,
+                                nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui
+                                in
                                 ea voluptate velit esse quam nihil.</p>
                         </div>
                     </div>
@@ -886,6 +991,8 @@
 
     <!-- Custom script for this template -->
     <script src="js/script.js"></script>
+
+
 </body>
 
 </html>
