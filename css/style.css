@@ -5047,6 +5047,8 @@ a:focus {
   color: #ff8e31;
 }
 
+
+
 @media (max-width: 991px) {
   .faq-blog .entry-body .read-more {
     font-size: 15px;
@@ -6965,7 +6967,7 @@ a:focus {
   float: left;
 }
 
-/* wa visible */
+
 /* wa visible */
 .wa-visible-on-mobile{
   display: none; 
