@@ -6965,6 +6965,45 @@ a:focus {
   float: left;
 }
 
+/* wa visible */
+.wa-visible-on-mobile{
+  display: none; 
+}
+.wa-visible-on-mobile a {
+  color: white;
+}
+
+.wa-visible-on-dekstop{
+  display: inline;
+}
+
+.wa-visible-on-dekstop a {
+  color: white;
+}
+.telepon a {
+  color: white;
+}
+
+@media only screen and (max-width: 640px) {
+  .wa-visible-on-dekstop {
+    display: none;
+  }
+
+  .wa-visible-on-dekstop a {
+    color: white;
+  }
+  
+  .wa-visible-on-mobile {
+    display: inline;
+  }
+  .wa-visible-on-mobile a {
+    color: white;
+  }
+  
+
+
+/* end Wa visible */
+
 @media (max-width: 767px) {
   .careers-section .job-search-form .form > div {
     float: none;
