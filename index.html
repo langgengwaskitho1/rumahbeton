@@ -1139,67 +1139,57 @@
 
         <!-- start of contact-section -->
         <section class="contact-section">
-            <div class="contact-map" id="map">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.43843858948!2d106.97693531476968!3d-6.337212395413885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69933927f2b57f%3A0x247c3799d4bbd340!2sBENUA%20BETON%20MINI%20READYMIX!5e0!3m2!1sid!2sid!4v1596362218157!5m2!1sid!2sid"
-                                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
-                                aria-hidden="false" tabindex="0"></iframe>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="contact-form">
-                                <h3>Alamat Kami</h3>
-                                <ul>
-                                    <li><i class="fa fa-home"></i>Jl. Narogong, RT.003/RW.001, Cikiwul, Bantar Gebang,
-                                        Bekasi City, West Java 17152</li>
-                                    <li class="telepon"><a href="tel:+62818-0810-3006"><i
-                                                class="fa fa-phone"></i>+6218-0810-3006
-                                            (telepon)</a></li>
-                                    <li class="wa-visible-on-mobile"> <a
-                                            href="https://api.whatsapp.com/send?phone=+6282111757006&text=Bismillah,%20saya%20ingin%20bertanya%20tentang%20produk%20Rumah%20Beton%20Ready%20Mix">
-                                            <i class="fa fa-whatsapp"></i>+6282111757006 (Whatsapp)
+            <div class="contact-map" id="map"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 gmap">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.43843858948!2d106.97693531476968!3d-6.337212395413885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69933927f2b57f%3A0x247c3799d4bbd340!2sBENUA%20BETON%20MINI%20READYMIX!5e0!3m2!1sid!2sid!4v1596368423334!5m2!1sid!2sid" width="500" height="500" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    <div class="col col-md-6  ">
+                        <div class="contact-form">
+                            <h3>Alamat Kami</h3>
+                            <ul>
+                                <li><i class="fa fa-home"></i>Jl. Narogong, RT.003/RW.001, Cikiwul, Bantar Gebang,
+                                    Bekasi City, West Java 17152</li>
+                                <li class="telepon"><a href="tel:+62818-0810-3006"><i class="fa fa-phone"></i>+6218-0810-3006
+                                        (telepon)</a></li>
+                                <li class="wa-visible-on-mobile"> <a href="https://api.whatsapp.com/send?phone=+6282111757006&text=Bismillah,%20saya%20ingin%20bertanya%20tentang%20produk%20Rumah%20Beton%20Ready%20Mix"> <i class="fa fa-whatsapp"></i>+6282111757006 (Whatsapp)
                                         </a>
-                                    </li>
-                                    <li class="wa-visible-on-dekstop">
-                                        <a
-                                            href="https://web.whatsapp.com/send?phone=+6282111757006&text=Bismillah,%20saya%20ingin%20bertanya%20tentang%20produk%20Rumah%20Beton%20Ready%20Mix"><i
-                                                class="fa fa-whatsapp"></i>+6282111757006 (Whatsapp)</a>
-                                    </li>
-
-                                </ul>
-                                <h4>Hubungi Kami</h4>
-                                <form class="form contact-validation-active" id="contact-form">
-                                    <div>
-                                        <input type="text" name="name" class="form-control" placeholder="Nama">
+                                </li>
+                                <li class="wa-visible-on-dekstop">
+                                    <a
+                                        href="https://web.whatsapp.com/send?phone=+6282111757006&text=Bismillah,%20saya%20ingin%20bertanya%20tentang%20produk%20Rumah%20Beton%20Ready%20Mix"><i class="fa fa-whatsapp"></i>+6282111757006 (Whatsapp)</a>
+                                </li>
+                                
+                            </ul>
+                            <h4>Hubungi Kami</h4>
+                            <form class="form contact-validation-active" id="contact-form">
+                                <div>
+                                    <input type="text" name="name" class="form-control" placeholder="Nama">
+                                </div>
+                                <div>
+                                    <input type="email" name="email" class="form-control" placeholder="Email">
+                                </div>
+                                <div>
+                                    <input type="number" name="phone" class="form-control" placeholder="Nomor Telefon">
+                                </div>
+                                <div>
+                                    <textarea name="note" class="form-control" placeholder="Tuliskan Pesan Anda Di sini"></textarea>
+                                </div>
+                                <div class="submit">
+                                    <button type="submit">Kirim</button>
+                                    <span id="loader"><img src="images/contact-ajax-loader.gif" alt="Loader"></span>
+                                </div>
+                                <div class="error-handling-messages">
+                                    <div id="success">Thank you</div>
+                                    <div id="error"> Error occurred while sending email. Please try again later.
                                     </div>
-                                    <div>
-                                        <input type="email" name="email" class="form-control" placeholder="Email">
-                                    </div>
-                                    <div>
-                                        <input type="number" name="phone" class="form-control"
-                                            placeholder="Nomor Telefon">
-                                    </div>
-                                    <div>
-                                        <textarea name="note" class="form-control"
-                                            placeholder="Tuliskan Pesan Anda Di sini"></textarea>
-                                    </div>
-                                    <div class="submit">
-                                        <button type="submit">Kirim</button>
-                                        <span id="loader"><img src="images/contact-ajax-loader.gif" alt="Loader"></span>
-                                    </div>
-                                    <div class="error-handling-messages">
-                                        <div id="success">Thank you</div>
-                                        <div id="error"> Error occurred while sending email. Please try again later.
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
-                    </div> <!-- end row -->
-                </div> <!-- end container -->
-            </div>
+                    </div>
+                </div> <!-- end row -->
+            </div> <!-- end container -->
         </section>
         <!-- end of contact-section -->
 
