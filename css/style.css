@@ -6966,6 +6966,7 @@ a:focus {
 }
 
 /* wa visible */
+/* wa visible */
 .wa-visible-on-mobile{
   display: none; 
 }
@@ -6996,11 +6997,11 @@ a:focus {
   .wa-visible-on-mobile {
     display: inline;
   }
+
   .wa-visible-on-mobile a {
     color: white;
   }
-  
-
+}
 
 /* end Wa visible */
 
