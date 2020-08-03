@@ -92,7 +92,7 @@
         <!-- end preloader -->
 
         <!-- Start header -->
-        <header class="site-header header-style-1">
+        <header class="site-header header-style-1" id="hero">
             <div class="topbar">
                 <div class="container">
                     <div class="row">
@@ -185,7 +185,7 @@
 
 
         <!-- start of hero -->
-        <section class="hero hero-slider-wrapper hero-slider-s1">
+        <section class="hero hero-slider-wrapper hero-slider-s1" >
             <div class="hero-slider">
                 <div class="slide">
                     <img src="images/slider/slide-1.jpg" alt class="slider-bg">
@@ -244,12 +244,12 @@
 
 
         <!-- start of about-us -->
-        <section class="about-us section-padding">
+        <section class="about-us section-padding" id="about">
             <div class="container">
                 <div class="row">
                     <div class="col col-md-6">
                         <div class="section-title-s1">
-                            <span>Tentang Kami</span>
+                            <span>Profil Kami</span>
                             <h2>Rumah Beton <span>Ready Mix</span> Concrete Pump </h2>
                         </div>
                         <div class="about-details" style="text-align: justify;">
@@ -285,7 +285,7 @@
         <!-- end of about-us -->
 
         <!-- start of fun-fact -->
-        <section class="fun-fact section-padding" style="background-color: #eaeaea;">
+        <section class="fun-fact section-padding" style="background-color: #eaeaea;" id="fun-fact">
             <div class="container">
                 <div class="row section-title-s4">
                     <div class="col col-xs-12">
@@ -333,7 +333,7 @@
         <!-- end of fun-fact -->
 
         <!-- start of services-section -->
-        <section class="services-section section-padding">
+        <section class="services-section section-padding" id="services">
             <div class="container">
                 <div class="row section-title-s2">
                     <div class="col col-lg-3">
@@ -432,7 +432,7 @@
         <!-- end of services-section -->
 
         <!-- start Multiple Tab -->
-        <div class="container container-table" style="text-align: center;">
+        <div class="container container-table" style="text-align: center;" id="price">
             <h1>Daftar Harga</h1>
             <div class="row vertical-center-row">
 
@@ -817,7 +817,7 @@
         </div>
 
         <!-- start of latest-projects -->
-        <section class="latest-projects section-padding">
+        <section class="latest-projects section-padding" id="galery">
             <div class="container">
                 <div class="row section-title-s3">
                     <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -1010,7 +1010,7 @@
 
 
         <!-- start of faq-blog -->
-        <section class="faq-blog section-padding">
+        <section class="faq-blog section-padding" id="order">
             <div class="container">
                 <div class="row">
                     <div class="col col-lg-6 ">
@@ -1138,10 +1138,11 @@
 
 
         <!-- start of contact-section -->
-        <section class="contact-section">
+        <section class="contact-section" id="contact">
             <div class="contact-map" id="map"></div>
             <div class="container">
                 <div class="row">
+                    <h2 style="text-align: center;">Kontak Kami </h2>
                     <div class="col-md-6 gmap">
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.43843858948!2d106.97693531476968!3d-6.337212395413885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69933927f2b57f%3A0x247c3799d4bbd340!2sBENUA%20BETON%20MINI%20READYMIX!5e0!3m2!1sid!2sid!4v1596368423334!5m2!1sid!2sid"
@@ -1205,58 +1206,45 @@
         <!-- start footer-->
         <footer class="site-footer">
             <div class="container">
+                
                 <div class="row">
-                    <div class="col col-lg-4 col-md-3 col-xs-6">
+                    <div class="col col-md-6">
                         <div class="widget about-widget">
                             <h3><img src="images/logo1.png" alt="" style="margin-bottom: -18px;"></h3>
                             <p>Rumahbeton.com adalah website marketing dari PT.Benua Beton yang bergerak di bidang
                                 supply Beton Ready Mix, Mini Ready Mix dan Penyewaan pompa Beton untuk pengecoran rumah
                                 tinggal, jalan, ruko, pabrik, jembatan , fondasi, gudang, parkiran, gudang bertingkat
                                 dan lain-lain</p>
+                            <div class="widget social-media-widget">
+                                <ul class="social-links">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col col-lg-2 col-md-3 col-xs-6">
+                    <div class="col col-md-6">
                         <div class="widget site-map-widget">
-                            <h3>Navigation</h3>
+                            <h3>Navigasi</h3>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Service</a></li>
-                                <li><a href="#">Projects</a></li>
-                                <li><a href="#">Pages</a></li>
-                                <li><a href="#">Contuct</a></li>
+                                <li><a href="#hero">Home</a></li>
+                                <li><a href="#about">Profil Kami</a></li>
+                                <li><a href="#fun-fact">Mengapa Memilih Rumah Beton</a></li>
+                                <li><a href="#services">Layanan Rumah Beton</a></li>
+                                <li><a href="#price">Daftar Harga </a></li>
+                                <li><a href="#galery">Galeri</a></li>
+                                <li><a href="#order">Cara Pemesanan</a></li>
+                                <li><a href="#contact">Kontak Kami</a></li>
                             </ul>
                         </div>
                     </div>
 
-                    <div class="col col-lg-3 col-md-3 col-xs-6">
-                        <div class="widget news-widget">
-                            <h3>Recent news</h3>
-                            <ul>
-                                <li>
-                                    <div class="entry-media">
-                                        <img src="images/blog/thumb/img-1.jpg" alt>
-                                    </div>
-                                    <div class="entry-details">
-                                        <h5><a href="#">New ch017y concrete mixer is bought</a></h5>
-                                        <span class="date">19 FEB</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="entry-media">
-                                        <img src="images/blog/thumb/img-1.jpg" alt>
-                                    </div>
-                                    <div class="entry-details">
-                                        <h5><a href="#">New ch017y concrete mixer is bought</a></h5>
-                                        <span class="date">16 FEB</span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
 
-                    <div class="col col-lg-3 col-md-3 col-xs-6">
+                    <!-- <div class="col col-lg-3 col-md-3 col-xs-6">
                         <div class="widget newsletter-widget">
                             <h3>Subscription</h3>
                             <p>Enter your email address to subscribe our weekly newsletter</p>
@@ -1267,9 +1255,9 @@
                                 </div>
 
                             </form>
-                        </div>
+                        </div> -->
 
-                        <div class="widget social-media-widget">
+                    <!-- <div class="widget social-media-widget">
                             <ul class="social-links">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -1277,12 +1265,12 @@
                                 <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
                             </ul>
-                        </div>
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end container -->
-        </footer>
-        <!-- end footer-->
+                        </div> -->
+                </div>
+            </div> <!-- end row -->
+    </div> <!-- end container -->
+    </footer>
+    <!-- end footer-->
     </div>
     <!-- end of page-wrapper -->
 

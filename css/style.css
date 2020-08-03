@@ -3907,12 +3907,16 @@ a:focus {
 .site-footer {
   background-color: #15191f;
   padding: 115px 0 100px;
+  margin-top: 59px
   /*** about widget ***/
   /*** news widget ***/
   /*** site map widget ***/
   /*** newsletter-widget ***/
   /*** social-media-widget ***/
 }
+
+
+
 
 @media (max-width: 1199px) {
   .site-footer {
@@ -4189,7 +4193,7 @@ a:focus {
 }
 
 .site-footer .social-media-widget {
-  margin-top: -20px;
+  margin-top: 15px;
 }
 
 .site-footer .social-media-widget .social-links li {
@@ -5093,6 +5097,10 @@ a:focus {
   /*** map ***/
   /*** contact box ***/
   /*** contact form ***/
+}
+
+.contact-section .container .contact-map .row h2 {
+  text-align: center;
 }
 
 @media (max-width: 991px) {
