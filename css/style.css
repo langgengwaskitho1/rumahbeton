@@ -5068,6 +5068,11 @@ a:focus {
   text-align: center;
 }
 
+.partners-section h2 {
+  margin-top: -19px;
+  margin-bottom: 38px;
+}
+
 .partners-section .partners-slider img {
   width: auto;
   display: inline-block;
