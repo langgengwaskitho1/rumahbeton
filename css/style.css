@@ -2601,6 +2601,11 @@ a:focus {
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
   }
+
+  #hero nav .menu-item-has-children i.fa-angle-down {
+    display: none;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
