@@ -6999,14 +6999,14 @@ a:focus {
 
 /* wa visible */
 .wa-visible-on-mobile{
-  display: none; 
+  display: none;
 }
 .wa-visible-on-mobile a {
   color: white;
 }
 
 .wa-visible-on-dekstop{
-  display: inline;
+  display:inline-block;
 }
 
 .wa-visible-on-dekstop a {
@@ -7026,7 +7026,7 @@ a:focus {
   }
   
   .wa-visible-on-mobile {
-    display: inline;
+    display: inline-block;
   }
 
   .wa-visible-on-mobile a {
