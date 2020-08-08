@@ -2567,11 +2567,11 @@ a:focus {
 }
 
 @media (max-width: 991px) {
-  .site-header #navbar > ul > li a {
+  /* .site-header #navbar > ul > li a {
     display: block;
     font-size: 14px;
     font-size: 0.875rem;
-  }
+  } */
   .site-header #navbar > ul > li .sub-menu li {
     border-bottom: 1px solid #e6e6e6;
   }
@@ -2587,7 +2587,7 @@ a:focus {
   .site-header #navbar > ul .menu-item-has-children > a {
     position: relative;
   }
-  .site-header #navbar > ul .menu-item-has-children > a:before {
+  /* .site-header #navbar > ul .menu-item-has-children > a:before {
     font-family: "FontAwesome";
     content: "\f107";
     font-size: 15px;
@@ -2600,7 +2600,7 @@ a:focus {
     -o-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
+  } */
 
   #hero nav .menu-item-has-children i.fa-angle-down {
     display: none;
